@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "$%@" : {
+
+    },
+    "Bottom View" : {
+
+    },
+    "cancel" : {
+
+    },
+    "Components" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Delete Confirmation" : {
+
+    },
+    "Details about %@" : {
+
+    },
+    "Do you want to delete the product" : {
+
+    },
+    "Favourite" : {
+
+    },
+    "Fruits" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "ok" : {
+
+    },
+    "Product" : {
+
+    },
+    "Product Detail View" : {
+
+    },
+    "Products List" : {
+
+    },
+    "Read less" : {
+
+    },
+    "Read more" : {
+
+    },
+    "Section 1" : {
+
+    },
+    "Section 2" : {
+
+    },
+    "Text 1" : {
+
+    },
+    "title" : {
+
+    },
+    "Title" : {
+
+    }
+  },
+  "version" : "1.0"
+}
