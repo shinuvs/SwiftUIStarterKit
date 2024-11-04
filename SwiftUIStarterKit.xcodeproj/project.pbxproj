@@ -34,10 +34,11 @@
 		BB0A782D2CD81D13004F8AB1 /* ListWithStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A78152CD81D13004F8AB1 /* ListWithStack.swift */; };
 		BB0A782E2CD81D13004F8AB1 /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A78162CD81D13004F8AB1 /* SectionListView.swift */; };
 		BB0A782F2CD81D13004F8AB1 /* UseCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A78172CD81D13004F8AB1 /* UseCaseView.swift */; };
-		BB0A78302CD81D13004F8AB1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A78192CD81D13004F8AB1 /* CartView.swift */; };
-		BB0A78312CD81D13004F8AB1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A781A2CD81D13004F8AB1 /* LoginView.swift */; };
 		BB0A78332CD81D34004F8AB1 /* ProductViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A78322CD81D34004F8AB1 /* ProductViewModelTests.swift */; };
 		BB0A78352CD81D89004F8AB1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BB0A78342CD81D89004F8AB1 /* Localizable.xcstrings */; };
+		BB40C85C2CD8CEF5001FCF29 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C85B2CD8CEF5001FCF29 /* Queue.swift */; };
+		BB40C89B2CD8DDE4001FCF29 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C89A2CD8DDE4001FCF29 /* LoginView.swift */; };
+		BB40C89D2CD8DF18001FCF29 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C89C2CD8DF18001FCF29 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,10 +89,11 @@
 		BB0A78152CD81D13004F8AB1 /* ListWithStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListWithStack.swift; sourceTree = "<group>"; };
 		BB0A78162CD81D13004F8AB1 /* SectionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
 		BB0A78172CD81D13004F8AB1 /* UseCaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseView.swift; sourceTree = "<group>"; };
-		BB0A78192CD81D13004F8AB1 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
-		BB0A781A2CD81D13004F8AB1 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BB0A78322CD81D34004F8AB1 /* ProductViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModelTests.swift; sourceTree = "<group>"; };
 		BB0A78342CD81D89004F8AB1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		BB40C85B2CD8CEF5001FCF29 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		BB40C89A2CD8DDE4001FCF29 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BB40C89C2CD8DF18001FCF29 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +149,6 @@
 				BB0A78032CD81D13004F8AB1 /* Constants */,
 				BB0A78092CD81D13004F8AB1 /* MockResponse */,
 				BB0A77FF2CD81D13004F8AB1 /* Network */,
-				BB0A781B2CD81D13004F8AB1 /* templates */,
 				BB0A78182CD81D13004F8AB1 /* Usecases */,
 				BB0A77D12CD81CEF004F8AB1 /* SwiftUIStarterKitApp.swift */,
 				BB0A77D32CD81CEF004F8AB1 /* ContentView.swift */,
@@ -217,6 +218,7 @@
 				BB0A78042CD81D13004F8AB1 /* AppTextField.swift */,
 				BB0A78052CD81D13004F8AB1 /* AppTextFieldGroup.swift */,
 				BB0A78062CD81D13004F8AB1 /* RatingView.swift */,
+				BB40C89C2CD8DF18001FCF29 /* CustomButton.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -268,23 +270,24 @@
 		BB0A78182CD81D13004F8AB1 /* Usecases */ = {
 			isa = PBXGroup;
 			children = (
+				BB40C8992CD8DDD5001FCF29 /* Login */,
 				BB0A78122CD81D13004F8AB1 /* Product */,
 				BB0A78132CD81D13004F8AB1 /* Components.swift */,
 				BB0A78142CD81D13004F8AB1 /* ListView.swift */,
 				BB0A78152CD81D13004F8AB1 /* ListWithStack.swift */,
 				BB0A78162CD81D13004F8AB1 /* SectionListView.swift */,
 				BB0A78172CD81D13004F8AB1 /* UseCaseView.swift */,
+				BB40C85B2CD8CEF5001FCF29 /* Queue.swift */,
 			);
 			path = Usecases;
 			sourceTree = "<group>";
 		};
-		BB0A781B2CD81D13004F8AB1 /* templates */ = {
+		BB40C8992CD8DDD5001FCF29 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				BB0A78192CD81D13004F8AB1 /* CartView.swift */,
-				BB0A781A2CD81D13004F8AB1 /* LoginView.swift */,
+				BB40C89A2CD8DDE4001FCF29 /* LoginView.swift */,
 			);
-			path = templates;
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,9 +426,8 @@
 				BB0A782C2CD81D13004F8AB1 /* ListView.swift in Sources */,
 				BB0A782F2CD81D13004F8AB1 /* UseCaseView.swift in Sources */,
 				BB0A78252CD81D13004F8AB1 /* MockAPIService.swift in Sources */,
+				BB40C89D2CD8DF18001FCF29 /* CustomButton.swift in Sources */,
 				BB0A78272CD81D13004F8AB1 /* ProductDetailView.swift in Sources */,
-				BB0A78302CD81D13004F8AB1 /* CartView.swift in Sources */,
-				BB0A78312CD81D13004F8AB1 /* LoginView.swift in Sources */,
 				BB0A78242CD81D13004F8AB1 /* RatingView.swift in Sources */,
 				BB0A77D42CD81CEF004F8AB1 /* ContentView.swift in Sources */,
 				BB0A78202CD81D13004F8AB1 /* GeneralErrors.swift in Sources */,
@@ -434,6 +436,8 @@
 				BB0A782B2CD81D13004F8AB1 /* Components.swift in Sources */,
 				BB0A78222CD81D13004F8AB1 /* AppTextField.swift in Sources */,
 				BB0A77D22CD81CEF004F8AB1 /* SwiftUIStarterKitApp.swift in Sources */,
+				BB40C89B2CD8DDE4001FCF29 /* LoginView.swift in Sources */,
+				BB40C85C2CD8CEF5001FCF29 /* Queue.swift in Sources */,
 				BB0A78292CD81D13004F8AB1 /* ProductListView.swift in Sources */,
 				BB0A782E2CD81D13004F8AB1 /* SectionListView.swift in Sources */,
 				BB0A781D2CD81D13004F8AB1 /* APIEnvironment.swift in Sources */,
