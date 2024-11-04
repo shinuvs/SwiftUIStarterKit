@@ -39,6 +39,8 @@
 		BB40C85C2CD8CEF5001FCF29 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C85B2CD8CEF5001FCF29 /* Queue.swift */; };
 		BB40C89B2CD8DDE4001FCF29 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C89A2CD8DDE4001FCF29 /* LoginView.swift */; };
 		BB40C89D2CD8DF18001FCF29 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C89C2CD8DF18001FCF29 /* CustomButton.swift */; };
+		BB40C8A52CD8E561001FCF29 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C8A32CD8E561001FCF29 /* CustomTableViewCell.swift */; };
+		BB40C8A62CD8E561001FCF29 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40C8A42CD8E561001FCF29 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		BB40C85B2CD8CEF5001FCF29 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		BB40C89A2CD8DDE4001FCF29 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BB40C89C2CD8DF18001FCF29 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BB40C8A32CD8E561001FCF29 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		BB40C8A42CD8E561001FCF29 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +274,7 @@
 		BB0A78182CD81D13004F8AB1 /* Usecases */ = {
 			isa = PBXGroup;
 			children = (
+				BB40C8A22CD8E54D001FCF29 /* UIKitFiles */,
 				BB40C8992CD8DDD5001FCF29 /* Login */,
 				BB0A78122CD81D13004F8AB1 /* Product */,
 				BB0A78132CD81D13004F8AB1 /* Components.swift */,
@@ -288,6 +293,15 @@
 				BB40C89A2CD8DDE4001FCF29 /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		BB40C8A22CD8E54D001FCF29 /* UIKitFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BB40C8A32CD8E561001FCF29 /* CustomTableViewCell.swift */,
+				BB40C8A42CD8E561001FCF29 /* ListViewController.swift */,
+			);
+			path = UIKitFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +441,7 @@
 				BB0A782F2CD81D13004F8AB1 /* UseCaseView.swift in Sources */,
 				BB0A78252CD81D13004F8AB1 /* MockAPIService.swift in Sources */,
 				BB40C89D2CD8DF18001FCF29 /* CustomButton.swift in Sources */,
+				BB40C8A62CD8E561001FCF29 /* ListViewController.swift in Sources */,
 				BB0A78272CD81D13004F8AB1 /* ProductDetailView.swift in Sources */,
 				BB0A78242CD81D13004F8AB1 /* RatingView.swift in Sources */,
 				BB0A77D42CD81CEF004F8AB1 /* ContentView.swift in Sources */,
@@ -434,6 +449,7 @@
 				BB0A78282CD81D13004F8AB1 /* ProductListRow.swift in Sources */,
 				BB0A782D2CD81D13004F8AB1 /* ListWithStack.swift in Sources */,
 				BB0A782B2CD81D13004F8AB1 /* Components.swift in Sources */,
+				BB40C8A52CD8E561001FCF29 /* CustomTableViewCell.swift in Sources */,
 				BB0A78222CD81D13004F8AB1 /* AppTextField.swift in Sources */,
 				BB0A77D22CD81CEF004F8AB1 /* SwiftUIStarterKitApp.swift in Sources */,
 				BB40C89B2CD8DDE4001FCF29 /* LoginView.swift in Sources */,
